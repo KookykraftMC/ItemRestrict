@@ -1,0 +1,641 @@
+Worlds:
+- All
+Scanner:
+  event:
+    onPlayerJoin: 1
+    onChunkLoad: 0.1
+Bans:
+  Usage:
+##This config will work for all servers##
+##Removing mods that are not present is not necessary##
+#Follow the correct format or I will actually cry
+#Usage bans also apply for equip, ownership, and craft since we
+#never distinguish between these types and it just takes up space
+#Blood Magic
+    #Earth Former
+    - AWWAYOFTIME_ALCHEMICALWIZARDRYTILEBLOCKSPELLEFFECT-3
+    #Imperfect Ritual Stone
+    - AWWAYOFTIME_IMPERFECTRITUALSTONE
+    #Bound Tools
+    - AWWAYOFTIME_BOUNDPICKAXE
+    - AWWAYOFTIME_BOUNDAXE
+    - AWWAYOFTIME_BOUNDSHOVEL
+    #Particle generator
+    - AWWAYOFTIME_ALCHEMICALWIZARDRYTILEBLOCKSPELLPARADIGM
+
+#Abyssalcraft
+    #Death bomb
+    - ABYSSALCRAFT_ODB
+
+#Artifacts
+    #Display pedestal
+    - ARTIFACTS_PEDESTAL
+
+#Battlegear 2
+    #Ender arrow
+    - BATTLEGEAR2_MBARROW-2
+
+#Bibliocraft
+    #Slotted book
+    - BIBLIOCRAFT_ITEMSLOTTEDBOOK
+
+#Big trees
+    #Hat tree
+    - BIGTREES_BT_BIGSAPLING-5
+
+#Botania
+    #Rod of the shifting crust
+    - BOTANIA_EXCHANGEROD
+
+#Buildcraft
+    #Quarry - D
+    - BUILDCRAFTBUILDERS_MACHINEBLOCK
+
+#ChickenChunks
+    #Chunkloader
+    - CHICKENCHUNKS_CHICKENCHUNKLOADER
+
+#Chromaticraft
+    #Shimmering sapling
+    - CHROMATICRAFT_CHROMATICRAFT_BLOCK_GLOWSAPLING
+    #Rainbow sapling
+    - CHROMATICRAFT_CHROMATICRAFT_BLOCK_RAINBOWSAPLING
+    #Vacuum gun
+    - CHROMATICRAFT_CHROMATICRAFT_ITEM_VACUUMGUN
+    #Mineral extractor - D
+    - CHROMATICRAFT_CHROMATICRAFT_ITEM_PLACER
+
+#Computercraft
+    #Turtles
+    - COMPUTERCRAFT_CCTURTLE
+    - COMPUTERCRAFT_CCTURTLEEXPANDED
+    - COMPUTERCRAFT_CCTURTLEADVANCED
+
+#Mr Crayfish's Furniture
+    #Package
+    - CFM_ITEMPACKAGE
+
+#Draconic Evolution
+    #Sundial
+    - DRACONICEVOLUTION_SUNDIAL
+    #Weather Controller
+    - DRACONICEVOLUTION_WEATHERCONTROLLER
+
+#Ender Tech
+    #Exchanger
+    - ENDERTECH_ENDERTECHEXCHANGER
+
+#Ender Utilities
+    #Mob harness
+    - ENDERUTILITIES_MOBHARNESS
+
+#Erebus
+    #Wand of animation
+    - EREBUS_WANDOFANIMATION
+    #Block extractor
+    - EREBUS_BLOCKEXTRACTOR
+
+#Expanded redstone
+    #Block placer
+    - EXPANDEDREDSTONE_EXPANDED_REDSTONE_ITEM_PLACER
+
+#Extra Utilities
+    #Filing cabinet
+    - EXTRAUTILITIES_FILING
+    #Ender Quarry - D
+    - EXTRAUTILITIES_ENDERQUARRY
+    #Node upgrade
+    - EXTRAUTILITIES_NODEUPGRADE-1
+    - EXTRAUTILITIES_NODEUPGRADE-10
+
+#Flan's mod
+    #Explosive ammo
+    - FLANSMOD_MINIGUNEXPLOSIVEAMMO
+    - FLANSMOD_BARRETTEXPLOSIVEAMMO
+
+#Forestry
+    #Rainmaker
+    - FORESTRY_FACTORY-7
+
+#Gravi gun
+    #Both gravity guns
+    - GRAVIGUN_GRAVIGUN
+
+#Immersive Engineering
+    #High explosive cartridge
+    - IMMERSIVEENGINEERING_BULLET-5
+
+#Inventory pets
+    #Cloud pets
+    - INVENTORYPETS_PETCLOUD
+    #Loot pet
+    - INVENTORYPETS_PETLOOT 
+    #Illuminati pet
+    - INVENTORYPETS_PETILLUMINATI 
+    #Chest pets
+    - INVENTORYPETS_PETCHEST
+    - INVENTORYPETS_PETDOUBLECHEST
+    #Bed pet
+    - INVENTORYPETS_PETBED
+
+#Irish Luck
+    #Everything
+    - IRISHLUCK_BLOCKIRISHLUCK
+    - IRISHLUCK_BLOCKIRISHLUCKRACEONE
+    - IRISHLUCK_BLOCKIRISHLUCKRACETWO
+    - IRISHLUCK_BLOCKIRISHLUCKPIT
+    - IRISHLUCK_BLOCKINVISIBLE
+    - IRISHLUCK_CLOVER
+
+#JABBA
+    #Dolly and Diamond dolly
+    - JABBA_MOVER
+    - JABBA_MOVERDIAMOND
+
+#Jurassicraft
+    #Cultivate
+    - JURASSICRAFT_TILECULTIVATE_BOTTOM_IDLE
+    - JURASSICRAFT_TILECULTIVATE_BOTTOM_LIT
+
+#Littleblocks
+    #Little chunk
+    - LITTLEBLOCKS_LBLITTLEBLOCKS
+    #Little wand
+    - LITTLEBLOCKS_LBWAND
+
+#Malis doors
+    #Pretty much everything
+    - MALISISDOORS_BLOCK_MIXER 
+    - MALISISDOORS_DOOR_FACTORY
+    - MALISISDOORS_ITEMFORCEFIELDITEM
+    - MALISISDOORS_VANISHING_BLOCK
+    - MALISISDOORS_VANISHING_BLOCK_DIAMOND
+
+#Mekanism
+    #Carboard box
+    - MEKANISM_CARDBOARDBOX
+    #Digiminer
+    - MEKANISM_MACHINEBLOCK
+
+#Minefactory Reloaded
+    #Sacred Rubber saplings
+    - MINEFACTORYRELOADED_RUBBERWOODSAPLING-1
+    - MINEFACTORYRELOADED_RUBBERWOODSAPLING-2
+    - MINEFACTORYRELOADED_RUBBERWOODSAPLING-3
+    #Chunkloader
+    - MINEFACTORYRELOADED_MACHINE2-10
+    #Block Placer
+    - MINEFACTORYRELOADED_MACHINE2-7
+    #Block breaker
+    - MINEFACTORYRELOADED_MACHINE0-7
+    #Laser Drill - D
+    -  MINEFACTORYRELOADED_MACHINE2-0
+    #SPAMR launcher
+    - MINEFACTORYRELOADED_ROCKETLAUNCHER
+    #Anti material rockets
+    - MINEFACTORYRELOADED_ROCKET
+
+#Natura
+    #Redwood sapling
+    - NATURA_FLORASAPLING-0
+
+#OpenBlocks
+    #Crane backpack and components
+    - OPENBLOCKS_CRANEBACKPACK
+    - OPENBLOCKS_CRANECONTROL
+    - OPENBLOCKS_GENERIC-3
+    #Block placer/breaker
+    - OPENBLOCKS_BLOCKPLACER
+    - OPENBLOCKS_BLOCKBREAKER
+    #Fan - Ban this if laggy
+    #OPENBLOCKS_FAN
+
+#Open Computers
+    #Chunkloader upgrade
+    - OPENCOMPUTERS_ITEM-62
+
+#Open Modular Turrets
+    #Turret bases
+    - OPENMODULARTURRETS_BASETIERWOOD
+    - OPENMODULARTURRETS_BASETIERONEBLOCK
+    - OPENMODULARTURRETS_BASETIERTWOBLOCK
+    - OPENMODULARTURRETS_BASETIERTHREEBLOCK 
+    - OPENMODULARTURRETS_BASETIERFOURBLOCK
+
+#Orespawn
+    #Duplicator tree
+    - ORESPAWN_ORESPAWN_DUPLICATORLOG
+    #Random dungeon spawner
+    - ORESPAWN_ORESPAWN_DUNGEONSPAWNER
+    #Thunder staff
+    - ORESPAWN_ORESPAWN_THUNDERSTAFF
+    #OMG! No! Don't do it!!! (apple thing)
+    - ORESPAWN_ORESPAWN_MAGICAPPLE
+    #Miners' dream
+    - ORESPAWN_ORESPAWN_MINERSDREAM
+    #Stairs going up/down
+    - ORESPAWN_ORESPAWN_STEPUP
+    - ORESPAWN_ORESPAWN_STEPDOWN
+    #Insta-bridge
+    - ORESPAWN_ORESPAWN_STEPACCROSS
+    #Zoo cages
+    - ORESPAWN_ORESPAWN_ZOOCAGE2
+    - ORESPAWN_ORESPAWN_ZOOCAGE4
+    - ORESPAWN_ORESPAWN_ZOOCAGE6
+    - ORESPAWN_ORESPAWN_ZOOCAGE8
+    - ORESPAWN_ORESPAWN_ZOOCAGE10
+
+
+#Portal gun
+    #Portal half
+    - PORTALGUN_PORTAL_BLOCKPORTAL
+    - PORTALGUN_PORTAL_BLOCKMULTI
+    #All guns
+    - PORTALGUN_PORTALGUNBLUE
+    - PORTALGUN_PORTALGUNORANGE
+    #Portal spawner
+    - PORTALGUN_PORTALGUNSPAWNER
+    #Material emancipation grid
+    - PORTALGUN_PORTALMULTI-14
+    #Pellet launcher
+    - PORTALGUN_PORTALMULTI-4
+
+#ProjectE
+    #Watch of flowing time
+    - PROJECTE_ITEMPE_TIME_WATCH
+    #Evertide amulet
+    - PROJECTE_ITEMPE_EVERTIDE_AMULET
+    #Volcanite amulet
+    - PROJECTE_ITEMPE_VOLCANITE_AMULET
+    #Hyperkinetic lens
+    - PROJECTE_ITEMPE_HYPERKINETIC_LENS
+    #Catalytic lens
+    - PROJECTE_ITEMPE_CATALITIC_LENS
+    #Nova catalyst/cataclysm
+    - PROJECTE_NOVA_CATALYST
+    - PROJECTE_NOVA_CATACLYSM
+
+#Project Red
+    #Block placer
+    - PROJREDEXPANSION_PROJECTREDEXPANSIONMACHINE2-2
+
+#QuiverBow
+    #Lightning red
+    - QUIVERCHEVSKY_WEAPONCHEVSKY_LIGHTNINGRED
+    #Wither rifle
+    - QUIVERCHEVSKY_WEAPONCHEVSKY_OWR
+    #Aqua accelerator
+    - QUIVERCHEVSKY_WEAPONCHEVSKY_AQUAACCELERATOR
+    #Flint duster
+    - QUIVERCHEVSKY_WEAPONCHEVSKY_FLINTDUSTER
+
+#Railcraft
+    #Anchors
+    - RAILCRAFT_MACHINEALPHA-0
+    - RAILCRAFT_MACHINEALPHA-2
+    - RAILCRAFT_MACHINEALPHA-4
+    - RAILCRAFT_MACHINEALPHA-13
+    #Anchor sentinel
+    - RAILCRAFT_MACHINEBETA-10
+    #Anchor carts
+    - RAILCRAFT_CARTANCHOR
+    - RAILCRAFT_CARTANCHORPERSONAL
+    - RAILCRAFT_CARTANCHORADMIN
+    #Firestone
+    - RAILCRAFT_FIRESTONERAW
+    - RAILCRAFT_FIRESTONECUT
+    - RAILCRAFT_FIRESTONEREFINED
+    - RAILCRAFT_FIRESTONECRACKED
+    #Tunnel bore
+    - RAILCRAFT_CARTBORE
+
+#Random Things
+    #Magnetic force
+    - RANDOMTHINGS_MAGNETICFORCE
+
+#RFTools
+    #Dimension builder
+    - RFTOOLS_DIMENSIONBUILDERBLOCK
+    #Dimension editor
+    - RFTOOLS_DIMENSIONEDITORBLOCK
+
+#Rotarycraft
+    #Boring machine
+    - ROTARYCRAFT_ROTARYCRAFT_ITEM_ENGINE-14
+    #Chunkloader
+    - ROTARYCRAFT_ROTARYCRAFT_ITEM_MACHINE-49
+
+#Tinkers' construct/mechworks
+    #Landmine
+    - TCONSTRUCT_REDSTONELANDMINE
+    #SDX
+    - TCONSTRUCT_EXPLOSIVESLIME
+    #Drawbridges
+    - TMECHWORKS_REDSTONEMACHINE-0
+    - TMECHWORKS_REDSTONEMACHINE-2
+    - TMECHWORKS_REDSTONEMACHINE-3
+
+#Thaumcraft/tinkerer/automagy
+    #Bottled taint
+    - THAUMCRAFT_ITEMBOTTLETAINT
+    #Equal trade focus
+    - THAUMCRAFT_FOCUSTRADE
+    #Primal focus
+    - THAUMCRAFT_FOCUSPRIMAL
+    #Imbued fires
+    - THAUMICTINKERER_FIREAIR
+    - THAUMICTINKERER_FIREFIRE
+    - THAUMICTINKERER_FIREWATER
+    - THAUMICTINKERER_FIREORDER
+    - THAUMICTINKERER_FIREEARTH
+    - THAUMICTINKERER_FIRECHAOS
+    #Arcane bore base
+    #Do not ban actual bore-used in recipes and unable to grief without this base anyway
+    - THAUMCRAFT_BLOCKWOODENDEVICE
+
+#Thermal Expansion
+    #Florb
+    - THERMALEXPANSION_FLORB
+
+#Applied/Thaumic Energistics/Extra cells
+    #Network Tool
+    - APPLIEDENERGISTICS2_ITEMTOOLNETWORKTOOL
+    #Matter cannon
+    - APPLIEDENERGISTICS2_ITEMTOOLMASSCANNON
+    #Block container
+    - EXTRACELLS_STORAGEPHYSICAL-4
+
+#Chisel
+    #Cloud in a bottle
+    - CHISEL_CLOUDINABOTTLE
+    #Smashing rock
+    - CHISEL_SMASHINGROCK
+
+#Divine RPG
+    #Nightmare bed
+    - DIVINERPG_NIGHTMAREBED
+
+#Secret Rooms
+    #Secret trapdoor
+    - SECRETROOMSMOD_SECRETTRAPDOOR
+
+#Witchery
+    #Poppet shelf
+    - WITCHERY_POPPETSHELF
+
+#Ender IO
+    #Vacuum chests
+    - ENDERIO_BLOCKVACUUMCHEST
+    #Travelling staff
+    - ENDERIO_ITEMTRAVELSTAFF
+
+#Twilight forest
+    #Miner's tree
+    - TWILIGHTFOREST_TILETFSAPLING-7
+    - TWILIGHTFOREST_TILETFMAGICLOGSPECIAL-2
+    #Tree of time
+    - TWILIGHTFOREST_TILETFSAPLING-6
+    - TWILIGHTFOREST_TILETFMAGICLOGSPECIAL-0
+
+#It Fell from the sky
+    #Compact porkchop
+    - ITFELLFROMTHESKY_COMPACTPORKCHOP
+
+
+###Creative items###
+  #Minecraft:
+    #Command block
+    - COMMAND
+
+  #Aura cascade
+    #C. pump
+    - AURA_AURANODEPUMPCREATIVE
+
+  #Blood magic 
+    #C. activation crystal
+    - AWWAYOFTIME_ACTIVATIONCRYSTAL-2
+    #Orb of testing
+    - AWWAYOFTIME_CREATIVEFILLER 
+    #C. sacrificial knife
+    - AWWAYOFTIME_CREATIVEDAGGER
+
+  #Bibliocraft
+    #Filled bookcase
+    - BIBLIOCRAFT_BOOKCASEFILLED
+    #C. lock and key
+    - BIBLIOCRAFT_ITEMBIBLIOCREATIVELOCK
+
+  #Big reactors
+    #C. part
+    - BIGREACTORS_BRMULTIBLOCKCREATIVEPART
+
+  #Blood utils
+    #C. tool
+    - BLOODUTILS_ITEMCREATIVE_TOOL
+
+  #Botania
+    #C. pool
+    - BOTANIA_POOL-1
+
+  #Buildcraft/additions
+    #C. engine
+    - BUILDCRAFTCORE_ENGINEBLOCK
+    #Debugger
+    - BUILDCRAFTCORE_DEBUGGER
+    #C. kinetic energy buffer
+    - BCADDITIONS_KEBT1-9
+    #Robot debugger
+    - BCADDITIONS_ROBOTDEBUGTOOL
+
+  #Chance cubes
+    #C. pendant
+    - CHANCECUBES_CREATIVEPENDANT
+
+  #Chromaticraft
+    #Pylon placer
+    - CHROMATICRAFT_CHROMATICRAFT_ITEM_PLACER-38
+
+  #Computercraft
+    #Command computer
+    - COMPUTERCRAFT_COMMAND_COMPUTER
+  #Draconic Evolution
+    #C. keystone
+    - DRACONICEVOLUTION_CKEYSTONE
+
+  #Ender IO
+    #C. capacitor bank (and deprecated)
+    - ENDERIO_BLOCKCAPACITORBANK-1
+    - ENDERIO_BLOCKCAPBANK-0
+    #C. buffer
+    - ENDERIO_BLOCKBUFFER-3
+
+  #Evilcraft
+    #C. blood container
+    - EVILCRAFT_BLOODCONTAINER-3
+    #C. blood drop
+    - EVILCRAFT_CREATIVEBLOODDROP 
+
+  #Extra utilities
+    #C. node upgrade
+    - EXTRAUTILITIES_NODEUPGRADE-4
+
+  #Galacticraft/more planets
+    #C. rockets
+    - GALACTICRAFTCORE_ITEMSPACESHIP-4
+    - GALACTICRAFTMARS_ITEMSPACESHIPTIER2-4
+    - GALACTICRAFTMARS_ITEMITEMTIER3ROCKET-4
+    - MOREPLANET_TIER_4_ROCKET-14
+    - MOREPLANET_TIER_5_ROCKET-14
+    - MOREPLANET_TIER_6_ROCKET-14
+    - MOREPLANET_TIER_7_ROCKET-4
+    - MOREPLANET_TIER_8_ROCKET-4
+    #Infinite battery
+    - GALACTICRAFTCORE_ITEMINFINITEBATTERY
+    #Infinite oxygen supply
+    - GALACTICRAFTCORE_ITEMINFINITEOXYGEN
+
+  #Harder wildlife
+    #Dendrometer
+    - HARDERWILDLIFE_DENDROMETER
+    #Dendricide
+    - HARDERWILDLIFE_DENDRICIDE
+    #Vitometer
+    - HARDERWILDLIFE_VITOMETER
+
+  #Immersive engineering
+    #C. capacitor in a box
+    - IMMERSIVEINTEGRATION_CAPACITORBOX-3
+    #Metal device
+    - IMMERSIVEENGINEERING_METALDEVICE2-8
+
+  #Iskall Minimobs
+    #C. cell
+    - ISKALLMINIMOBS_MM_CREATIVECELL
+
+  #JABBA
+    #C. item
+    - JABBA_UPGRADECORE-10
+    #C. hammer
+    - JABBA_HAMMER-7
+
+  #Logistics pipes
+    #Item module
+    - LOGISTICSPIPES_ITEMITEMMODULE-16
+
+  #Matter overdrive
+    #C. Battery
+    - MO_CREATIVE_BATTERY
+    #C. pattern drive
+    - MO_CREATIVE_PATTERN_DRIVE
+
+  #Open Computers
+    #C. case
+    - OPENCOMPUTERS_CASECREATIVE
+    #Accelerated processing unit
+    - OPENCOMPUTERS_ITEM-103
+    #C. drone case
+    - OPENCOMPUTERS_ITEM-91
+    #C. servers
+    - OPENCOMPUTERS_ITEM-69
+
+  #Pistronics
+    #C. machine
+    - PISTRONICS2_CREATIVE_MACHINE
+
+  #Pressure pipes
+    #C. source
+    - PRESSURE_CREATIVE
+
+  #Project red fabrication
+    #Chip
+    - PROJREDFABRICATION_PROJECTREDFABRICATIONICCHIP-1
+
+  #Pneumaticraft
+    - PNEUMATICCRAFT_CREATIVECOMPRESSOR
+
+  #Random Things
+    #C. player interface
+    - RANDOMTHINGS_CREATIVEPLAYERINTERFACE
+    #C. sword
+    - RANDOMTHINGS_CREATIVESWORD
+    #C. grower
+    - RANDOMTHINGS_CREATIVEGROWER
+    #C. chest spawner
+    - RANDOMTHINGS_CREATIVECHESTGENERATOR
+
+  #Recurrent complex
+    #Command block
+    - RECCOMPLEX_WEIGHTED_COMMAND_BLOCK
+
+  #Sanguimancy
+    #C. soul corruption modifiers
+    - SANGUIMANCY_SOULCORRUPTIONTEST
+
+  #Simply jetpacks
+    #C. jetpack
+    - SIMPLYJETPACKS_JETPACKSCOMMON-9001
+    #C. fluxpack
+    - SIMPLYJETPACKS_FLUXPACKSCOMMON-9001
+
+  #Steve's factory manager
+    #Creative supplier
+    - STEVESFACTORYMANAGER_BLOCKCABLECREATIVENAME
+
+  #Storage Drawers
+    #C. upgrade
+    - STORAGEDRAWERS_UPGRADECREATIVE
+
+  #Tinkers construct
+    #C. modifier
+    - TCONSTRUCT_CREATIVEMODIFIER
+
+  #Thaumcraft/automagy/thaumic horizons
+    #C. wand (orachalcum studded cosmic neutronium)
+    - THAUMCRAFT_WANDCASTING-2000
+    #Eldritch portal spawner
+    - THAUMCRAFT_ITEMELDRITCHOBJECT-4
+    #Infinity jar
+    - AUTOMAGY_BLOCKCREATIVEJAR
+    #Thinking cap
+    - AUTOMAGY_CREATIVETOOL
+    #C. planar vortex
+    - THAUMICHORIZONS_VORTEXTH-1
+
+  #Thermal Expansion
+    #C. energy cell
+    - THERMALEXPANSION_CELL-0
+    #C. tank
+    - THERMALEXPANSION_TANK-0
+    #C. strongbox
+    - THERMALEXPANSION_STRONGBOX-0
+    #C. cache
+    - THERMALEXPANSION_CACHE-0
+    #C. sponge
+    - THERMALEXPANSION_SPONGE-0
+    #C. capacitor
+    - THERMALEXPANSION_CAPACITOR-0
+
+  #Applied/thaumic energistics
+    #C. energy cell
+    - APPLIEDENERGISTICS2_TILEBLOCKCREATIVEENERGYCELL
+    #C. storage cell
+    - APPLIEDENERGISTICS2_ITEMITEMCREATIVESTORAGECELL
+    #C. essentia storage cell
+    - THAUMICENERGISTICS_STORAGEESSENTIA-4
+
+  #Chocolate Quest
+    #C. supertool
+    - CHOCOLATEQUEST_PICKAXEMAGIC
+
+  #Waslie core
+    #C. sword
+    - WASLIECORE_ITEMWASLIECOREITEMCHEAT_SWORD
+
+  #Witchery
+    #C. wolf/vamp token
+    - WITCHERY_WOLFTOKEN
+  World:
+Messages:
+  labels:
+
+  reasons:

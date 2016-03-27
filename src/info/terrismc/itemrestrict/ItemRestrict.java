@@ -1,10 +1,8 @@
 package info.terrismc.itemrestrict;
 
-import java.io.IOException;
 import java.util.logging.Logger;
 import org.bukkit.Server;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.mcstats.MetricsLite;
 
 
 public class ItemRestrict extends JavaPlugin {
@@ -32,11 +30,5 @@ public class ItemRestrict extends JavaPlugin {
 		
 		// Register command handler
 		this.getCommand( "ires" ).setExecutor( new CommandListener( this ) );
-                
-                //MCStats
-                try {
-                    MetricsLite metrics = new MetricsLite(this);
-                    metrics.start();
-                } catch (IOException e) {}
 	}
 }

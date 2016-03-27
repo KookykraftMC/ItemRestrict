@@ -37,9 +37,9 @@ public class ConfigStore {
 		config = plugin.getConfig();
 		worldList = config.getStringList( "Worlds" );
 		usageBans = config.getStringList( "Bans.Usage" );
-		equipBans = config.getStringList( "Bans.Equip" );
-		craftingBans = config.getStringList( "Bans.Crafting" );
-		ownershipBans = config.getStringList( "Bans.Ownership" );
+		equipBans = usageBans;
+		craftingBans = usageBans;
+		ownershipBans = usageBans;
 		worldBans = config.getStringList( "Bans.World" );
 	}
 	
@@ -198,47 +198,35 @@ public class ConfigStore {
 	}
 
 	private boolean isConfigString( String configString ) {
-		String[] magicNumbers = configString.split( "-" );
+		String[] notMagicNumbersAnymore = configString.split( "-" );
 		
 		// Check partition amount
-		if( magicNumbers.length > 2 )
+		if( notMagicNumbersAnymore.length > 2 )
 			return false;
-		
-		// Check for integers
-		for( String magicNumber : magicNumbers ) {
-			try {
-				Integer.parseInt( magicNumber );			
-			} 
-			catch( NumberFormatException e ) {
-		    	return false;	
-			}
-		}
 		return true;
 	}
 	
 	@SuppressWarnings("deprecation")
 	private String getConfigString( Block block ) {
 		// Config version string of block id and data value 
-		return "" + block.getTypeId() + "-" + block.getData();
+		return "" + block.getType().toString() + "-" + block.getData();
 	}
 	
-	@SuppressWarnings("deprecation")
 	private String getConfigStringParent( Block block ) {
 		// Config version string of block id 
-		return "" + block.getTypeId();
+		return "" + block.getType().toString();
 	}
 	
 	@SuppressWarnings("deprecation")
 	private String getConfigString( ItemStack item ) {
 		// Config version string of item id and data value
 		MaterialData matData = item.getData();
-		return "" + matData.getItemTypeId() + "-" + matData.getData();
+		return "" + matData.getItemType().toString() + "-" + matData.getData();
 	}
 	
-	@SuppressWarnings("deprecation")
 	private String getConfigStringParent( ItemStack item ) {
 		// Config version string of item id and data value
-		return "" + item.getTypeId();
+		return "" + item.getType().toString();
 	}
 	
 	public double getScanFrequencyOnPlayerJoin() {
