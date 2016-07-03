@@ -164,7 +164,7 @@ public class ConfigStore {
 		reason = config.getString( "Messages.reasons." + getConfigStringParent( block ) );
 		if( reason != null )
 			return reason.replace( "&", "�" );
-		return "Ask your server administrator.";
+		return "Check the list for info: http://kkmc.info/21MSqpn";
 	}
 	
 	public String getReason( ItemStack item ) {
@@ -174,7 +174,7 @@ public class ConfigStore {
 		reason = config.getString( "Messages.reasons." + getConfigStringParent( item ) );
 		if( reason != null )
 			return reason.replace( "&", "�" );
-		return "Ask your server administrator.";
+		return "Check the list for info: http://kkmc.info/21MSqpn";
 	}
 	
 	private String getActionTypeString( ActionType actionType ) {
@@ -221,7 +221,7 @@ public class ConfigStore {
 	private String getConfigString( ItemStack item ) {
 		// Config version string of item id and data value
 		MaterialData matData = item.getData();
-		return "" + matData.getItemType().toString() + "-" + matData.getData();
+		return "" + item.getType().toString() + "-" + matData.getData();
 	}
 	
 	private String getConfigStringParent( ItemStack item ) {

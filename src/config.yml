@@ -11,25 +11,33 @@ Bans:
 #Follow the correct format or I will actually cry
 #Usage bans also apply for equip, ownership, and craft since we
 #never distinguish between these types and it just takes up space
-#Blood Magic
-    #Earth Former
-    - AWWAYOFTIME_ALCHEMICALWIZARDRYTILEBLOCKSPELLEFFECT-3
-    #Imperfect Ritual Stone
-    - AWWAYOFTIME_IMPERFECTRITUALSTONE
-    #Bound Tools
-    - AWWAYOFTIME_BOUNDPICKAXE
-    - AWWAYOFTIME_BOUNDAXE
-    - AWWAYOFTIME_BOUNDSHOVEL
-    #Particle generator
-    - AWWAYOFTIME_ALCHEMICALWIZARDRYTILEBLOCKSPELLPARADIGM
+
 
 #Abyssalcraft
     #Death bomb
     - ABYSSALCRAFT_ODB
 
+#Applied/Thaumic Energistics/Extra cells
+    #Network Tool
+    - APPLIEDENERGISTICS2_ITEMTOOLNETWORKTOOL
+    #Matter cannon
+    - APPLIEDENERGISTICS2_ITEMTOOLMASSCANNON
+    #Block container
+    - EXTRACELLS_STORAGEPHYSICAL-4
+    #Formation pane
+    - APPLIEDENERGISTICS2_ITEMITEMMULTIPART-320
+    #Certus Quartz Tank
+    - EXTRACELLS_CERTUSTANK
+
 #Artifacts
     #Display pedestal
     - ARTIFACTS_PEDESTAL
+
+#Baconators
+    #Everything
+    - BACONATORS_BACONATOR
+    - BACONATORS_CLUCKINATOR
+    - BACONATORS_JERKYNATOR
 
 #Battlegear 2
     #Ender arrow
@@ -43,27 +51,45 @@ Bans:
     #Hat tree
     - BIGTREES_BT_BIGSAPLING-5
 
+#Blood Magic
+    #Earth Former
+    - AWWAYOFTIME_ALCHEMICALWIZARDRYTILEBLOCKSPELLEFFECT-3
+    #Imperfect Ritual Stone
+    - AWWAYOFTIME_IMPERFECTRITUALSTONE
+    #Bound Tools
+    - AWWAYOFTIME_BOUNDPICKAXE
+    - AWWAYOFTIME_BOUNDAXE
+    - AWWAYOFTIME_BOUNDSHOVEL
+    #Particle generator
+    - AWWAYOFTIME_ALCHEMICALWIZARDRYTILEBLOCKSPELLPARADIGM
+
 #Botania
     #Rod of the shifting crust
     - BOTANIA_EXCHANGEROD
+    #Horn of the wild
+    - BOTANIA_GRASSHORN
 
 #Buildcraft
     #Quarry - D
     - BUILDCRAFTBUILDERS_MACHINEBLOCK
 
 #ChickenChunks
-    #Chunkloader
+    #Chunkloader - D
     - CHICKENCHUNKS_CHICKENCHUNKLOADER
 
-#Chromaticraft
+#Chisel
+    #Cloud in a bottle
+    - CHISEL_CLOUDINABOTTLE
+    #Smashing rock
+    - CHISEL_SMASHINGROCK
+
+#Chromaticraft - Currently we don't have it
     #Shimmering sapling
     - CHROMATICRAFT_CHROMATICRAFT_BLOCK_GLOWSAPLING
     #Rainbow sapling
     - CHROMATICRAFT_CHROMATICRAFT_BLOCK_RAINBOWSAPLING
     #Vacuum gun
     - CHROMATICRAFT_CHROMATICRAFT_ITEM_VACUUMGUN
-    #Mineral extractor - D
-    - CHROMATICRAFT_CHROMATICRAFT_ITEM_PLACER
 
 #Computercraft
     #Turtles
@@ -71,15 +97,27 @@ Bans:
     - COMPUTERCRAFT_CCTURTLEEXPANDED
     - COMPUTERCRAFT_CCTURTLEADVANCED
 
-#Mr Crayfish's Furniture
+#Crayfish's Furniture (Mr)
     #Package
     - CFM_ITEMPACKAGE
+
+#Divine RPG
+    #Nightmare bed
+    - DIVINERPG_NIGHTMAREBED
 
 #Draconic Evolution
     #Sundial
     - DRACONICEVOLUTION_SUNDIAL
     #Weather Controller
     - DRACONICEVOLUTION_WEATHERCONTROLLER
+    #Reactor
+    - DRACONICEVOLUTION_REACTORCORE
+
+#Ender IO
+    #Vacuum chests
+    - ENDERIO_BLOCKVACUUMCHEST
+    #Travelling staff
+    - ENDERIO_ITEMTRAVELSTAFF
 
 #Ender Tech
     #Exchanger
@@ -107,11 +145,17 @@ Bans:
     #Node upgrade
     - EXTRAUTILITIES_NODEUPGRADE-1
     - EXTRAUTILITIES_NODEUPGRADE-10
+    #Ender-thermic pump
+    - EXTRAUTILITIES_ENDERTHERMICPUMP
 
 #Flan's mod
     #Explosive ammo
     - FLANSMOD_MINIGUNEXPLOSIVEAMMO
     - FLANSMOD_BARRETTEXPLOSIVEAMMO
+
+#FoodPlus
+    #Countertop
+    - FOODPLUS_COUNTERTOP
 
 #Forestry
     #Rainmaker
@@ -124,6 +168,10 @@ Bans:
 #Immersive Engineering
     #High explosive cartridge
     - IMMERSIVEENGINEERING_BULLET-5
+
+#IndustrialCraft
+    #Mining Laser
+    - IC2_ITEMTOOLMININGLASER
 
 #Inventory pets
     #Cloud pets
@@ -147,10 +195,13 @@ Bans:
     - IRISHLUCK_BLOCKINVISIBLE
     - IRISHLUCK_CLOVER
 
+#It Fell from the sky
+    #Compact porkchop
+    - ITFELLFROMTHESKY_COMPACTPORKCHOP
+
 #JABBA
-    #Dolly and Diamond dolly
-    - JABBA_MOVER
-    - JABBA_MOVERDIAMOND
+    #Hopper Facade
+    - JABBA_UPGRADESIDE-1
 
 #Jurassicraft
     #Cultivate
@@ -175,7 +226,7 @@ Bans:
     #Carboard box
     - MEKANISM_CARDBOARDBOX
     #Digiminer
-    - MEKANISM_MACHINEBLOCK
+    - MEKANISM_MACHINEBLOCK-4
 
 #Minefactory Reloaded
     #Sacred Rubber saplings
@@ -199,7 +250,7 @@ Bans:
     #Redwood sapling
     - NATURA_FLORASAPLING-0
 
-#OpenBlocks
+#Open Blocks
     #Crane backpack and components
     - OPENBLOCKS_CRANEBACKPACK
     - OPENBLOCKS_CRANECONTROL
@@ -325,6 +376,10 @@ Bans:
     #Chunkloader
     - ROTARYCRAFT_ROTARYCRAFT_ITEM_MACHINE-49
 
+#Secret Rooms
+    #Secret trapdoor
+    - SECRETROOMSMOD_SECRETTRAPDOOR
+
 #Tinkers' construct/mechworks
     #Landmine
     - TCONSTRUCT_REDSTONELANDMINE
@@ -335,7 +390,7 @@ Bans:
     - TMECHWORKS_REDSTONEMACHINE-2
     - TMECHWORKS_REDSTONEMACHINE-3
 
-#Thaumcraft/tinkerer/automagy
+#Thaumcraft/addons
     #Bottled taint
     - THAUMCRAFT_ITEMBOTTLETAINT
     #Equal trade focus
@@ -351,43 +406,17 @@ Bans:
     - THAUMICTINKERER_FIRECHAOS
     #Arcane bore base
     #Do not ban actual bore-used in recipes and unable to grief without this base anyway
-    - THAUMCRAFT_BLOCKWOODENDEVICE
+    - THAUMCRAFT_BLOCKWOODENDEVICE-4
 
 #Thermal Expansion
     #Florb
     - THERMALEXPANSION_FLORB
 
-#Applied/Thaumic Energistics/Extra cells
-    #Network Tool
-    - APPLIEDENERGISTICS2_ITEMTOOLNETWORKTOOL
-    #Matter cannon
-    - APPLIEDENERGISTICS2_ITEMTOOLMASSCANNON
-    #Block container
-    - EXTRACELLS_STORAGEPHYSICAL-4
-
-#Chisel
-    #Cloud in a bottle
-    - CHISEL_CLOUDINABOTTLE
-    #Smashing rock
-    - CHISEL_SMASHINGROCK
-
-#Divine RPG
-    #Nightmare bed
-    - DIVINERPG_NIGHTMAREBED
-
-#Secret Rooms
-    #Secret trapdoor
-    - SECRETROOMSMOD_SECRETTRAPDOOR
-
-#Witchery
-    #Poppet shelf
-    - WITCHERY_POPPETSHELF
-
-#Ender IO
-    #Vacuum chests
-    - ENDERIO_BLOCKVACUUMCHEST
-    #Travelling staff
-    - ENDERIO_ITEMTRAVELSTAFF
+#Thermal Dynamics
+    #Everything
+    - THERMALDYNAMICS_THERMALDYNAMICS_0
+    - THERMALDYNAMICS_THERMALDYNAMICS_16
+    - THERMALDYNAMICS_THERMALDYNAMICS_32
 
 #Twilight forest
     #Miner's tree
@@ -397,9 +426,9 @@ Bans:
     - TWILIGHTFOREST_TILETFSAPLING-6
     - TWILIGHTFOREST_TILETFMAGICLOGSPECIAL-0
 
-#It Fell from the sky
-    #Compact porkchop
-    - ITFELLFROMTHESKY_COMPACTPORKCHOP
+#Witchery
+    #Poppet shelf
+    - WITCHERY_POPPETSHELF
 
 
 ###Creative items###
@@ -439,7 +468,7 @@ Bans:
 
   #Buildcraft/additions
     #C. engine
-    - BUILDCRAFTCORE_ENGINEBLOCK
+    - BUILDCRAFTCORE_ENGINEBLOCK-3
     #Debugger
     - BUILDCRAFTCORE_DEBUGGER
     #C. kinetic energy buffer
