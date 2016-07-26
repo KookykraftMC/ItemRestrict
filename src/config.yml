@@ -329,6 +329,8 @@ Bans:
 #Project Red
     #Block placer
     - PROJREDEXPANSION_PROJECTREDEXPANSIONMACHINE2-2
+    #Firewall pipe
+    - PROJREDTRANSPORTATION_PROJECTREDTRANSPORTATIONPIPE-6
 
 #QuiverBow
     #Lightning red
